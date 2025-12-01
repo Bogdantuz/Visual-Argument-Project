@@ -1,0 +1,61 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin: 0
+}
+
+button {
+    all: unset;
+}
+
+@font-face {
+    font-family: 'Stack-Sans';
+    src: url('Stack_Sans_Text/StackSansText-VariableFont_wght.ttf') format('ttf');
+    font-style: normal;
+}
+
+#main-text {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Stack-Sans', sans-serif;
+    font-size: 2.05em;
+    max-width: 63.5%;
+    /* max-width: 48%; */
+    text-align: center;
+    /* line-height: 2.7; */
+    line-height: 2.2;
+}
+
+#previous-next-buttons {
+    width: 87.5%;
+    height: 64px;
+    margin: auto;
+    display: flex;
+    justify-items: baseline;
+    justify-content: space-between;
+    z-index: 2;
+}
+
+#previous-next-buttons > button {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background: #0C7BFA;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
