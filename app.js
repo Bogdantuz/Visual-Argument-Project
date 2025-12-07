@@ -56,6 +56,7 @@ function appear(currentPhrase, parentElement, extraAnimationDelay=0) {
             parentElement.appendChild(document.createElement('br'))
         } else if (word.startsWith("[")) {
             const aLink = document.createElement('a')
+            aLink.style.zIndex = 3
             const refLink = word.slice(1, -1)
             aLink.href = refLink
             let authorName = ""
