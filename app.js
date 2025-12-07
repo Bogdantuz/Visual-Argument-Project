@@ -456,14 +456,14 @@ const intentionOptions = [ // name, id, length
 ]
 
 const sources = [
-    ["https://www.theatlantic.com/ideas/archive/2025/01/attention-valuable-resource/681221/", "Chris Hayes"],
     ["https://doi.org/10.1016/0749-5978(91)90020-T", "Icek Ajzen"],
-    ["https://userpage.fu-berlin.de/~health/hapa/schwarzereurpsych2008.pdf", "Schwarzer and Luszczynska"],
+    ["https://jamesclear.com/atomic-habits", "James Clear"],
     ["https://pmc.ncbi.nlm.nih.gov/articles/PMC6125069/", "Mark Faries"],
     ["https://cancercontrol.cancer.gov/sites/default/files/2020-06/goal_intent_attain.pdf", "Peter Gollwitzer"],
-    ["https://www.apa.org/topics/personality/willpower", "APA"],
-    ["https://jamesclear.com/atomic-habits", "James Clear"],
+    ["https://www.theatlantic.com/ideas/archive/2025/01/attention-valuable-resource/681221/", "Chris Hayes"],
+    ["https://userpage.fu-berlin.de/~health/hapa/schwarzereurpsych2008.pdf", "Schwarzer and Luszczynska"],
     ["https://eprints.whiterose.ac.uk/id/eprint/107519/3/The", "Sheeran and Webb"],
+    ["https://www.apa.org/topics/personality/willpower", "APA"],
 ]
 
 renderText()
